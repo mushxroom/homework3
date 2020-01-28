@@ -84,6 +84,7 @@ tr:nth-child(even){
 }
 tr:hover{
   background: rgba(126,8,32,.5);
+  transition: background 1s;
 }
 
 
