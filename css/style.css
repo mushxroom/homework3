@@ -95,7 +95,12 @@ thead tr:first-child th:first-child{
 thead tr:first-child th:last-child{
   border-radius: 0px 12px 0px 0px;
 }
-
+tbody tr:last-child th:first-child{
+  border-radius: 0px 0px 0px 12px;
+}
+tbody tr:last-child td:last-child{
+  border-radius: 0px 0px 12px 0px;
+}
 
 footer{
   position:fixed;
